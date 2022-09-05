@@ -37,6 +37,7 @@ int main()
     int sum = add(a, b);
     int subtraction = sub(a, b);
     printf("a+b=%d\na-b=%d\n", sum, subtraction);
+    
 
     return 0;
 }
