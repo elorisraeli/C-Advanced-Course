@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// VLA - Variable Length Arrays
+
 #define Length(arr) ((int)(sizeof(arr) / sizeof(arr)[0]));
 
 void array(int size)
