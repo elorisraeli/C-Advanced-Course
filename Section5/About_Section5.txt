@@ -1,0 +1,7 @@
+This section is about storage classes
+
+- Automatic variables
+- Externals
+- Static
+- Register
+- And extra mission in the end, storage.c file

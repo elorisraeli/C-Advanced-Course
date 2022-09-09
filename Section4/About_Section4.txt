@@ -1,0 +1,7 @@
+This section is about working with larger programs
+
+- compiling multiple source files from the command line
+- Makefiles
+- Communication between files
+- Using headers files effectually
+- Heap and Stack memory allocations
