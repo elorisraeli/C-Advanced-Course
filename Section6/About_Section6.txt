@@ -1,0 +1,13 @@
+This section is about advanced data types
+
+- The #define statement(constants)
+- Using typedef
+- Variable length arrays
+- (Challenge of variable length arrays) 
+- Flexible array members
+- (Challenge of flexible array members)
+- Complex number types
+- (Challenge of complex number types)
+- Designated initializers
+- (Quiz and Solutions)
+
