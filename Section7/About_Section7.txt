@@ -1,0 +1,6 @@
+This section is about:
+
+- const
+- volatile
+- restrict
+
