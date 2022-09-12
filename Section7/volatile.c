@@ -14,11 +14,10 @@ int main(){
     and could be faster if she delete the first declaration that c = 10.. 
 
 
-    volatile vs const,
+    volatile vs const:
     const - things that not suppose to be change by the program
     volatile - if its will change by an agency other than the program
     */
-
 
     return 0;
 }
