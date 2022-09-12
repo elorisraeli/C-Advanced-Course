@@ -3,7 +3,8 @@
         "date.h": "c",
         "other.h": "c",
         "cmath": "c",
-        "complex": "c"
+        "complex": "c",
+        "xiosbase": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
