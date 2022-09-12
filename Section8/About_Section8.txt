@@ -1,0 +1,10 @@
+This section is about:
+
+- Binary numbers and bits
+- Bitwise Operators(Logical)
+- Bitwise Operators(Shifting)
+- Bitmasks Manipulation
+- Using Bit Operators to pack data
+- Using Bit fields to pack data
+- Challenges of each
+- Quiz at the end
