@@ -13,7 +13,7 @@ int binary2Decimal(long long binary_number){
     while (binary_number > 0)
     {
         answer += ((binary_number%10)*i);
-        printf("i=%d, bin=%lld, answer=%d (+%d)\n",i ,binary_number, answer, (binary_number%10)*i);
+        // printf("i=%d, bin=%lld, answer=%d (+%d)\n",i ,binary_number, answer, (binary_number%10)*i);
         i*=2;
         binary_number /= 10;
     }
@@ -26,16 +26,18 @@ long long decimal2Binary(int decimal){
     int reminder;
     while (decimal != 0)
     {
-        printf("i=%d, dec=%d, answer=%lld (+%d)\n",i ,decimal, answer, (reminder*i));
+        // printf("i=%d, dec=%d, answer=%lld (+%d)\n",i ,decimal, answer, (reminder*i));
         reminder = decimal%2;
         decimal /= 2;
         answer += (reminder*i);
         i *= 10;
     }
-    printf("i=%d, dec=%d, answer=%lld (+%d)\n",i ,decimal, answer, (reminder*i));
+    // printf("i=%d, dec=%d, answer=%lld (+%d)\n",i ,decimal, answer, (reminder*i));
     return answer;
 }
 
+// in comment for the 'bitwiseOps.c' file that run main and use this file functions
+/*
 int main(){
     printf("\nStart\n");
     long long binary = 0;
@@ -51,3 +53,4 @@ int main(){
     printf("Dec=%d, Bin=%lld\n",dec, bin);
 
 }
+*/
