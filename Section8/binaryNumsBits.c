@@ -8,7 +8,7 @@ Long long int (32 bits)--> -2,147,483,648 to 2,147,483,647
 */
 
 int binary2Decimal(long long binary_number){
-    int answer = 0;
+    long long int answer = 0;
     int i = 1;
     while (binary_number > 0)
     {

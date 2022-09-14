@@ -2,6 +2,8 @@
 #include "../Section8/binaryNumsBits.c"
 
 int main(){
+
+    // ----- Logical -----
     short int w1 = 25; // 0000000011001
     short int w2 = 77; // 0000001001101
     short int w3 = 0; //  0000000000000
@@ -41,6 +43,20 @@ int main(){
     s2 = ~(s1);        // 1111101 (Tilde operator, NOT gate - the opposite bit)
     printf("s1: decimal = %d, s2: decimal = %d\n", s1, s2);
 
+
+    // ----- Shifting -----
+    int h1 = 3; // 0000 0000 0000 0000 0000 0000 0000 0011
+    int h2 = 0;
+    h2 = h1 << 1; // 0000 0000 0000 0000 0000 0000 0000 0110
+    printf("decimal = %d, binary = %d\n", h2, decimal2Binary(h2));
+    int h3 = 138; // 0000 0000 0000 0000 0000 1000 0000 1010
+    int h4 = 0;
+    h4 = h3 << 2; // 0000 0000 0000 0000 0010 0000 0010 1000
+    printf("decimal = %d, binary = %d\n", h4, decimal2Binary(h4));
+    unsigned int h5 = 4151832098; // 1111 0111 0111 0111 1110 1110 0010 0010
+    int h6 = 0; // 0000 0000 0000 0000 0000 0000 0000 0000
+    h6 = h5 >> 3; // 0001 1110 1110 1110 1111 1101 1100 0100 -->518979012
+    
 
     return 0;
 }
