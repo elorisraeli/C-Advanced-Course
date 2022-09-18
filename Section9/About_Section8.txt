@@ -1,0 +1,6 @@
+This section is about:
+
+- goto statement
+- the null statement
+- the comma operator
+- setjmp and longjmp functions
