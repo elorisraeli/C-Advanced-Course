@@ -4,7 +4,9 @@
         "other.h": "c",
         "cmath": "c",
         "complex": "c",
-        "xiosbase": "c"
+        "xiosbase": "c",
+        "xlocale": "c",
+        "xutility": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
