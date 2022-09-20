@@ -36,6 +36,14 @@ void myFunction()
     printf("we won't see this line printed because I longjmp'd.\n");
 }
 
+
+jmp_buf challengeBuf;
+void error_recovery() {
+    printf("detected an unrecoverable error\n");
+    longjmp(challengeBuf, 1);
+}
+
+
 void main()
 {
     // example 1
@@ -58,4 +66,15 @@ void main()
         printf("First time through\n");
         myFunction();
     }
+
+    // Challenge
+      while (1) {
+      if (setjmp(challengeBuf)) {
+          printf("back in main\n");
+          break;
+      }
+      else {
+          error_recovery();
+      }
+  }
 }
