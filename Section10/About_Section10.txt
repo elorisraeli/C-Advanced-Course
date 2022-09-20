@@ -1,0 +1,6 @@
+This sections is about:
+
+- char functions (input)
+- char functions (output)
+- string functions
+- Formatting functions
