@@ -51,7 +51,7 @@ void main()
     FILE *pFile = NULL;
     char character = '\0';
     pFile = fopen("newFile.txt", "w");
-    // fputc("\n", pFile);
+    fputc('\n', pFile);
 
     if (pFile != NULL)
     {
