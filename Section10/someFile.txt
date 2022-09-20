@@ -1,0 +1,2 @@
+Hello there, I hope its will be written in the file 'someFile.txt'
+If it does its really awesome!!
