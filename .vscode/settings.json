@@ -6,7 +6,8 @@
         "complex": "c",
         "xiosbase": "c",
         "xlocale": "c",
-        "xutility": "c"
+        "xutility": "c",
+        "stdlib.h": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
