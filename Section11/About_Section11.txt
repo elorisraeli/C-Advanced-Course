@@ -1,0 +1,7 @@
+This section is about:
+
+- Variadic Functions
+- va_copy
+- Recursion
+-Inline Functions
+- _Noreturn Functions
