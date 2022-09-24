@@ -1,0 +1,5 @@
+This section is about:
+
+- Conditional Compilation
+- Include guards and #undef
+- #pragma and #error
