@@ -1,0 +1,6 @@
+This section is about:
+
+- Macros vs. Functions
+- Creating your own Macros
+- Preprocessor Operators
+- Predefined Macros 
