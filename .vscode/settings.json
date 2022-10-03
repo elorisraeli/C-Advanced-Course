@@ -7,7 +7,9 @@
         "xiosbase": "c",
         "xlocale": "c",
         "xutility": "c",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "iterator": "c",
+        "xmemory": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
