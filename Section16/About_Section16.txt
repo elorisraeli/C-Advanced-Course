@@ -1,0 +1,5 @@
+This section is about:
+
+- Double pointers
+- Function pointers
+- void pointers
