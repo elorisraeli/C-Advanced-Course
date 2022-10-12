@@ -3,3 +3,6 @@ This section is about:
 - Creating a Static Library
 - Creating a Dynamic Library
 - Dynamically loading a shared object
+
+
+** NO SHARED FILES FOR GITHUB THIS SECTION **
