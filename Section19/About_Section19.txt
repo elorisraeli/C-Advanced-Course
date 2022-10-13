@@ -1,0 +1,7 @@
+This section is about:
+
+- Abstract Data Types
+- Linked Lists
+- Stacks
+- Queues
+- Binary Trees
