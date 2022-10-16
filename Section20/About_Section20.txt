@@ -1,0 +1,8 @@
+This section is about:
+
+- Interprocess Communication
+- Signals
+- Raising a Signal
+- Handling a Signal using the signal function
+- Handling a Signal using sigaction
+- the fork() system call
