@@ -10,7 +10,11 @@
         "stdlib.h": "c",
         "iterator": "c",
         "xmemory": "c",
-        "cstdlib": "c"
+        "cstdlib": "c",
+        "ios": "c",
+        "ostream": "c",
+        "xlocnum": "c",
+        "xstring": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
