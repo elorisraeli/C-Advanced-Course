@@ -14,7 +14,8 @@
         "ios": "c",
         "ostream": "c",
         "xlocnum": "c",
-        "xstring": "c"
+        "xstring": "c",
+        "time.h": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
