@@ -1,0 +1,8 @@
+This section is about:
+
+- Creating a thread
+- Passing arguments and returning values
+- Common Thread functions
+- Thread Synchronization Concepts
+- Mutexes
+- Condition Variables
