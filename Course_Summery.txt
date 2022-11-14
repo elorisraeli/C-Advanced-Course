@@ -1,0 +1,74 @@
+--------- COURSE SUMMERY ---------
+
+Topics:
+
+
+storage data: 
+    auto, register, static and extern
+
+working with larger programs:
+    dividing your program into multiple files and compiling multiple files
+
+advanced data types: 
+    typedef, variable length arrays, flexible array numbers, complex number types
+
+type qualifiers: 
+    const, volatile and restrict
+
+bit manipulation: 
+    binary numbers and bits, bitwise operators(logical and shifting), bitmasks and bitfields
+
+advanced control flow: 
+    goto, null, comma operator, setjmp and longjmp
+
+more on input and output: 
+    getchar, putchar fgets, etc.. , puts, sprint, fprintf, fflush
+
+advanced function concepts: 
+    variadic function, recursive functions, inline functions
+
+unions: 
+    overview, defining and accessing union members
+
+advanced preprocessor concepts:
+    #define, #pragma, #error, ##, conditional compilation(#ifdef, #endif, #else, #elif, #undef, etc) include guards
+
+macros: 
+    overview(vs. functions, when to use), predefined macros, creating your own macros
+
+advanced debugging and compiler flags:
+    debugging with the pre-processor, more on gdb, core files, getting the stack trace, static analysis and profiling
+
+advanced pointers:
+    double pointers, function pointers, more on void pointers
+
+static libraries and shared objects:
+    overview, creation, dynamic loading
+
+useful C libraries:
+    the assert library, general utilities library(stdlib.h), (exit, atexit, qsort, memcpy, abort) date and time functions
+
+data structures:
+    linked lists, stacks, queues and trees
+
+inter-process communication (unix based using Cygwin):
+    overview (message queues, shared memory, piping), fork and signals
+
+threads (pthread (posix), not <threads.h> from C11):
+    overview, creating a thread, mutexes and semaphores, thread management (multi-threading, join, detach)
+
+networking (unix based using Cygwin):
+    overview (client/server model), creating server and client sockets
+
+
+many challenges, solutions and examples
+organized around theory and many demonstrations
+hands on coding
+
+
+
+Course Outcomes:
+- you will be able to write advanced C programs
+- you will be able to write efficient, high quality C code: modular, low coupling
+- master the art of program solving in programming using efficient, proven methods
+- you will understand advanced concepts of C Programming language
